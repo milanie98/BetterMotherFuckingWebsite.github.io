@@ -1,11 +1,9 @@
 //la fonction trigger
 $(function(){
-$("#BtAnnonce").hide();
+$("#pub").hide();
 setTimeout(function () {
-   $('#BtAnnonce').trigger('click');
+   $('#pub').trigger('click');
 }, 10000);
 
 });
-
-
 
